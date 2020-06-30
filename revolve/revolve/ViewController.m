@@ -2,8 +2,8 @@
 //  ViewController.m
 //  revolve
 //
-//  Created by ejiang on 2020/6/28.
-//  Copyright © 2020 51xt. All rights reserved.
+//  Created by 591xt on 2020/6/28.
+//  Copyright © 2020 591xt. All rights reserved.
 //
 
 #import "ViewController.h"

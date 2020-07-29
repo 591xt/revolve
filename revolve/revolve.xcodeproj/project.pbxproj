@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B4695EA24D1B91C00E9D8F5 /* YZTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4695E924D1B91C00E9D8F5 /* YZTabBarViewController.m */; };
+		3B4695ED24D1BD7000E9D8F5 /* PortraitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4695EC24D1BD7000E9D8F5 /* PortraitViewController.m */; };
+		3B4695F024D1BD9200E9D8F5 /* LandscapeLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4695EF24D1BD9200E9D8F5 /* LandscapeLeftViewController.m */; };
+		3B4695F324D1BDAE00E9D8F5 /* LandscapeRightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4695F224D1BDAE00E9D8F5 /* LandscapeRightViewController.m */; };
+		3B4695F624D1BDC500E9D8F5 /* PortraitUpsideDownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4695F524D1BDC500E9D8F5 /* PortraitUpsideDownViewController.m */; };
 		D976ED1D24A8445D005F015E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D976ED1C24A8445D005F015E /* AppDelegate.m */; };
 		D976ED2324A8445D005F015E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D976ED2224A8445D005F015E /* ViewController.m */; };
 		D976ED2824A8445F005F015E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D976ED2724A8445F005F015E /* Assets.xcassets */; };
@@ -34,6 +39,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B4695E824D1B91C00E9D8F5 /* YZTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZTabBarViewController.h; sourceTree = "<group>"; };
+		3B4695E924D1B91C00E9D8F5 /* YZTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZTabBarViewController.m; sourceTree = "<group>"; };
+		3B4695EB24D1BD7000E9D8F5 /* PortraitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PortraitViewController.h; sourceTree = "<group>"; };
+		3B4695EC24D1BD7000E9D8F5 /* PortraitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PortraitViewController.m; sourceTree = "<group>"; };
+		3B4695EE24D1BD9200E9D8F5 /* LandscapeLeftViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LandscapeLeftViewController.h; sourceTree = "<group>"; };
+		3B4695EF24D1BD9200E9D8F5 /* LandscapeLeftViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LandscapeLeftViewController.m; sourceTree = "<group>"; };
+		3B4695F124D1BDAE00E9D8F5 /* LandscapeRightViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LandscapeRightViewController.h; sourceTree = "<group>"; };
+		3B4695F224D1BDAE00E9D8F5 /* LandscapeRightViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LandscapeRightViewController.m; sourceTree = "<group>"; };
+		3B4695F424D1BDC500E9D8F5 /* PortraitUpsideDownViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PortraitUpsideDownViewController.h; sourceTree = "<group>"; };
+		3B4695F524D1BDC500E9D8F5 /* PortraitUpsideDownViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PortraitUpsideDownViewController.m; sourceTree = "<group>"; };
 		D976ED1824A8445D005F015E /* revolve.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = revolve.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D976ED1B24A8445D005F015E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D976ED1C24A8445D005F015E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -103,10 +118,20 @@
 				D976ED1C24A8445D005F015E /* AppDelegate.m */,
 				D976ED2124A8445D005F015E /* ViewController.h */,
 				D976ED2224A8445D005F015E /* ViewController.m */,
+				3B4695E824D1B91C00E9D8F5 /* YZTabBarViewController.h */,
+				3B4695E924D1B91C00E9D8F5 /* YZTabBarViewController.m */,
 				D976ED2724A8445F005F015E /* Assets.xcassets */,
 				D976ED2924A8445F005F015E /* LaunchScreen.storyboard */,
 				D976ED2C24A8445F005F015E /* Info.plist */,
 				D976ED2D24A8445F005F015E /* main.m */,
+				3B4695EB24D1BD7000E9D8F5 /* PortraitViewController.h */,
+				3B4695EC24D1BD7000E9D8F5 /* PortraitViewController.m */,
+				3B4695EE24D1BD9200E9D8F5 /* LandscapeLeftViewController.h */,
+				3B4695EF24D1BD9200E9D8F5 /* LandscapeLeftViewController.m */,
+				3B4695F124D1BDAE00E9D8F5 /* LandscapeRightViewController.h */,
+				3B4695F224D1BDAE00E9D8F5 /* LandscapeRightViewController.m */,
+				3B4695F424D1BDC500E9D8F5 /* PortraitUpsideDownViewController.h */,
+				3B4695F524D1BDC500E9D8F5 /* PortraitUpsideDownViewController.m */,
 			);
 			path = revolve;
 			sourceTree = "<group>";
@@ -258,9 +283,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B4695F324D1BDAE00E9D8F5 /* LandscapeRightViewController.m in Sources */,
 				D976ED2324A8445D005F015E /* ViewController.m in Sources */,
+				3B4695ED24D1BD7000E9D8F5 /* PortraitViewController.m in Sources */,
+				3B4695EA24D1B91C00E9D8F5 /* YZTabBarViewController.m in Sources */,
 				D976ED1D24A8445D005F015E /* AppDelegate.m in Sources */,
 				D976ED2E24A8445F005F015E /* main.m in Sources */,
+				3B4695F024D1BD9200E9D8F5 /* LandscapeLeftViewController.m in Sources */,
+				3B4695F624D1BDC500E9D8F5 /* PortraitUpsideDownViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,15 +451,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 53975WERMG;
+				DEVELOPMENT_TEAM = 62FNS2Q4N7;
 				INFOPLIST_FILE = revolve/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = xyz.591xt.revolve;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -438,15 +470,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 53975WERMG;
+				DEVELOPMENT_TEAM = 62FNS2Q4N7;
 				INFOPLIST_FILE = revolve/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = xyz.591xt.revolve;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

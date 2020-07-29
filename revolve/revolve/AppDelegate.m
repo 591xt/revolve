@@ -9,6 +9,7 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
+#import "YZTabBarViewController.h"
 
 @interface AppDelegate ()
 
@@ -21,7 +22,8 @@
     
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
-    self.window.rootViewController = [ViewController new];
+    self.window.rootViewController = [[YZTabBarViewController alloc] initwithClassNameArray:@[@"PortraitViewController",@"LandscapeLeftViewController",@"LandscapeRightViewController",] andImageNameArray:@[@"Landscape",@"Landscape",@"Landscape",] andSelectedImageNameArray:@[@"Landscape_select",@"Landscape_select",@"Landscape_select",] andTitleNameArray:@[@"正竖屏",@"左横屏",@"右横屏",] andTitleFont:[UIFont systemFontOfSize:15 weight:(UIFontWeightMedium)] andTitleColor:[UIColor orangeColor] andSelectedTitleColor:[UIColor redColor]];
+        
     [self.window makeKeyWindow];
     [self.window makeKeyAndVisible];
     return YES;
@@ -30,14 +32,7 @@
 
 -(UIInterfaceOrientationMask)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window
 {
-    if(self.allowRotation==1)
-    {
-        return UIInterfaceOrientationMaskAll;
-    }
-    else
-    {
-        return UIInterfaceOrientationMaskPortrait;
-    }
+    return UIInterfaceOrientationMaskAll;
 }
 
 

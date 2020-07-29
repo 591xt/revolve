@@ -1,25 +1,25 @@
 //
-//  ViewController.m
+//  PortraitUpsideDownViewController.m
 //  revolve
 //
-//  Created by 591xt on 2020/6/28.
-//  Copyright © 2020 591xt. All rights reserved.
+//  Created by yz on 2020/7/29.
+//  Copyright © 2020 51xt. All rights reserved.
 //
 
-#import "ViewController.h"
-#import "AppDelegate.h"
+#import "PortraitUpsideDownViewController.h"
 
-@interface ViewController ()
+@interface PortraitUpsideDownViewController ()
 
 @property(nonatomic)NSInteger rotation;
 @property(nonatomic,strong)UIButton* btn;
 
 @end
 
-@implementation ViewController
+@implementation PortraitUpsideDownViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     
     self.view.backgroundColor=[UIColor whiteColor];
     
@@ -61,8 +61,4 @@
     self.btn.center=self.view.center;
 
 }
-
-
-
-
 @end
